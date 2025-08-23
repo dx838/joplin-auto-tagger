@@ -57,6 +57,20 @@ Notes:
 3) Click "Suggest Tags". The plugin will analyze the note and return 5 concise, lowercase, hyphenated tags.
 4) Click tags to select/deselect, then "Apply" to add them to the note.
 
+## Screenshots
+
+![Side Panel](docs/screenshots/panel.png)
+<small>AI Tag Suggester side panel opened via Tools → Toggle AI Tag Suggester.</small>
+
+![Suggestions](docs/screenshots/suggestions.png)
+<small>Suggested tags returned by the provider. Click to select/deselect.</small>
+
+![Applied Tags](docs/screenshots/applied.png)
+<small>Selected tags applied to the current note.</small>
+
+![Settings](docs/screenshots/settings.png)
+<small>Plugin settings under Tools → Options → AI Tag Suggester.</small>
+
 ## Development
 
 Build:
