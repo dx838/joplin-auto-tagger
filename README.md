@@ -1,0 +1,66 @@
+# Joplin AI Tag Suggester
+
+<p align="center">
+  <img src="logo.png" alt="Joplin AI Tag Suggester" width="240" />
+  <br/>
+</p>
+
+Suggest relevant tags for your Joplin notes using AI.
+
+Providers:
+- Gemini (default)
+- OpenRouter
+
+## Installation
+
+Prerequisites: Node.js, Joplin Desktop.
+
+1) Install dependencies
+```
+npm install
+```
+
+2) Build the plugin and pack a .jpl
+```
+npm run dist
+```
+
+3) In Joplin Desktop, go to Tools → Options → Plugins → Install from file and select the generated .jpl in the `publish/` folder.
+
+## Configuration
+
+Open Joplin → Tools → Options → AI Tag Suggester.
+
+Settings in `src/index.ts` are registered as Joplin settings:
+
+- provider: "gemini" or "openrouter" (default: gemini)
+- geminiApiKey: Your Google Gemini API key
+- openrouterApiKey: Your OpenRouter API key
+- openrouterModel: Model id (default: `openrouter/auto`)
+
+Notes:
+- For Gemini, the plugin tries: `gemini-2.5-flash`, `gemini-1.5-flash`, `gemini-1.5-flash-8b`.
+- For OpenRouter, the plugin calls `https://openrouter.ai/api/v1/chat/completions` with a structured prompt and expects JSON `{ "tags": string[] }`.
+
+## Usage
+
+1) Open any note in Joplin.
+2) Tools → Toggle AI Tag Suggester to open the side panel.
+3) Click "Suggest Tags". The plugin will analyze the note and return 5 concise, lowercase, hyphenated tags.
+4) Click tags to select/deselect, then "Apply" to add them to the note.
+
+## Development
+
+Build:
+```
+npm run build
+```
+
+Pack distributable:
+```
+npm run dist
+```
+
+## License
+
+MIT

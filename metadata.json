@@ -1,0 +1,5 @@
+{
+  "name": "Joplin AI Tag Suggester",
+  "description": "An AI-powered tag suggestion tool that analyzes note content to recommend relevant tags. Users can select from the suggestions and apply them to their notes, streamlining the organization process.",
+  "requestFramePermissions": []
+}
