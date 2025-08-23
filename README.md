@@ -1,15 +1,15 @@
 # Joplin AI Tag Suggester
 
 <p align="center">
-  <img src="logo.png" alt="Joplin AI Tag Suggester" width="240" />
+  <img src="https://raw.githubusercontent.com/cenktekin/joplin-auto-tagger/main/logo.png" alt="Joplin AI Tag Suggester" width="240" />
   <br/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/cenktekin/joplin-auto-tagger/actions/workflows/build.yml"><img alt="Build" src="https://github.com/cenktekin/joplin-auto-tagger/actions/workflows/build.yml/badge.svg" /></a>
-  <a href="https://github.com/cenktekin/joplin-auto-tagger/releases"><img alt="Release" src="https://img.shields.io/github/v/release/cenktekin/joplin-auto-tagger?sort=semver" /></a>
-  <a href="https://github.com/cenktekin/joplin-auto-tagger"><img alt="License" src="https://img.shields.io/github/license/cenktekin/joplin-auto-tagger" /></a>
-  <a href="https://github.com/cenktekin/joplin-auto-tagger/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/cenktekin/joplin-auto-tagger/total" /></a>
+  <a href="https://github.com/cenktekin/joplin-auto-tagger/actions/workflows/build.yml"><img alt="Build" src="https://github.com/cenktekin/joplin-auto-tagger/actions/workflows/build.yml/badge.svg?cacheSeconds=300" /></a>
+  <a href="https://github.com/cenktekin/joplin-auto-tagger/releases"><img alt="Release" src="https://img.shields.io/github/v/release/cenktekin/joplin-auto-tagger?sort=semver&v=1" /></a>
+  <a href="https://github.com/cenktekin/joplin-auto-tagger"><img alt="License" src="https://img.shields.io/github/license/cenktekin/joplin-auto-tagger?v=1" /></a>
+  <a href="https://github.com/cenktekin/joplin-auto-tagger/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/cenktekin/joplin-auto-tagger/total?v=1" /></a>
   <a href="https://buymeacoffee.com/cenktekin"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=000&labelColor=000&color=FFDD00" /></a>
 </p>
 
