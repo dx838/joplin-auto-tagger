@@ -289,8 +289,8 @@ joplin.plugins.register({
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <style>
                     /* Minimal reset to avoid Joplin styles leaking */
-                    html, body { margin: 0 !important; padding: 0 !important; background: transparent !important; }
-                    #root { isolation: isolate; background: transparent !important; }
+                    html, body { margin: 0 !important; padding: 0 !important; background: transparent !important;width: 232px !important;max-width: 232px !important; }
+                    #root { isolation: isolate; background: transparent !important; width: 100% !important;max-width: 232px !important;}
                     .js-warning { font-family: sans-serif; color: #999; font-size: 12px; }
                 </style>
             </head>
