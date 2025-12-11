@@ -197,7 +197,7 @@ joplin.plugins.register({
                 const provider = (await joplin.settings.value('provider')) || 'gemini';
                 const geminiApiKey = await joplin.settings.value('geminiApiKey');
                 const openrouterApiKey = await joplin.settings.value('openrouterApiKey');
-                const openrouterModel = (await joplin.settings.value('openrouterModel')) || 'openrouter/auto';
+                const openrouterModel = (await joplin.settings.value('openrouterModel')) || 'hunyuan-lite';
 
                 const prompt = `You are an expert at analyzing text and extracting key topics to be used as tags.\nAnalyze the following note content. Based on your analysis, generate exactly 5 relevant and concise tags.\nEach tag should be 1-3 words long and use lowercase letters, with hyphens instead of spaces (e.g., 'project-management').\nReturn your response as a JSON object with the shape { \"tags\": string[] } and nothing else.\n\nNote Content:\n---\n${message.noteContent}\n---`;
 
@@ -208,7 +208,7 @@ joplin.plugins.register({
                     try {
                         console.info(`[AI Tag Suggester] OpenRouter provider selected. Model: ${openrouterModel}`);
                         const resp = await gaxiosRequest<any>({
-                            url: 'https://openrouter.ai/api/v1/chat/completions',
+                            url: 'https://api.hunyuan.cloud.tencent.com/v1/chat/completions',
                             method: 'POST',
                             headers: {
                                 Authorization: `Bearer ${openrouterApiKey}`,
