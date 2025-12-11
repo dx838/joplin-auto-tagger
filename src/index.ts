@@ -294,7 +294,7 @@ joplin.plugins.register({
                     .js-warning { font-family: sans-serif; color: #999; font-size: 12px; }
                 </style>
             </head>
-            <body style="background: transparent !important; margin: 0 !important; padding: 0 !important;">
+            <body style="background: transparent !important; margin: 0 !important; padding: 0 !important;width: 100% !important;max-width: 232px !important;">
                 <div id="root" style="background: transparent !important; margin: 0 !important; padding: 0 !important;">
                     <span class="js-warning">If you see this, webview.js did not run yet…</span>
                 </div>
