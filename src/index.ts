@@ -152,7 +152,7 @@ joplin.plugins.register({
                 description: 'Your API key for https://openrouter.ai (Header: Authorization: Bearer <key>).',
             },
             openrouterModel: {
-                value: 'openrouter/auto',
+                value: 'hunyuan-lite',
                 type: SettingItemType.String,
                 section: 'aiTagSuggesterSection',
                 public: true,
